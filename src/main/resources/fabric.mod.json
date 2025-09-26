@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "copperpower",
+  "version": "1.0.0",
+  "name": "CopperPower",
+  "description": "Медные блоки передают редстоун-сигнал с учётом стадии окисления.",
+  "authors": [
+    "CopperPower Team"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.copperpower.CopperPowerMod"
+    ]
+  },
+  "mixins": [
+    "copperpower.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}
